@@ -1,0 +1,7 @@
+GitHub pull request helper methods
+
+pr.labels(1)
+
+if (pr.hasLabel(1, "Wallet")) {
+    print "do something!"
+}
