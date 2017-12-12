@@ -1,2 +1,3 @@
 # jenkins-demo-library
-Pull request with labels!
+
+Some labels for demo
