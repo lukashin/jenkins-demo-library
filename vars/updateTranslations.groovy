@@ -1,5 +1,5 @@
-def call() {
-    println 'Pulling translations from PhraseApp'
-    println 'Yeah!'
-    println 'Done with translations!'
+def call(locales) {
+    locales.each {
+        println "Pulling translations from PhraseApp ${it}"
+    }
 }
