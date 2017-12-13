@@ -1,5 +1,5 @@
 def verify(String url, present = '', notPresent = '') {
-    def response = (new URL(url)).text
+    def response = (new URL(url.trim())).text
 
     assert response
 
