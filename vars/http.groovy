@@ -21,3 +21,7 @@ def verify(String url, present = '', notPresent = '') {
         }
     }
 }
+
+def download(String url) {
+    return (new URL(url)).text
+}
